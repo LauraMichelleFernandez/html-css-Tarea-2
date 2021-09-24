@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Homenaje&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;0,700;1,300;1,700&family=Permanent+Marker&display=swap');
+
+/*Tipografias:
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Homenaje', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;*/
+
+/*Colores:
+    #482626= Café Oscuro
+    #be0000 = Rojo Claro
+    #8d0100 = Rojo Oscuro
+    #4c0002 = Cafe Medio
+*/
+
+/*Clases*/
+.bg-color-brown-middle {
+    background-color:#4c0002 ;
+    color: #fff;
+}
+
+/*Ediciones*/
+
+section {
+    padding: 40px 60px;
+    text-align: center;
+}
+
+section h2 {
+    font-family: 'Luckiest Guy';
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+section h3,
+section p,
+section label,
+input,
+textarea,
+footer {
+    font-family: 'Montserrat' ;
+    font-weight: 250;
+}
+
+
+/*Inicio*/
+.parallax {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(194, 15, 15, 0.5)), url("../img/Fondo.jpeg");
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: expansion 5s ;
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-family: 'Permanent Marker' ;
+    font-size: 38px;
+    padding: 12px 0px;
+    color: #fff;
+    text-align: center;
+    transition: all 3s;
+}
+
+
+/* Quienes Somos*/
+
+section#quienes-somos div.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+section#quienes-somos div.row img {
+    border-radius: 25%;
+}
+
+/*Nuestra Carrera*/
+section#nuestra-carrera h2,
+section#nuestra-carrera p {
+    color: #fff;
+    font-weight: 400;
+}
+
+section#nuestra-carrera {
+    height: 332px;
+}
+
+
+/*Integrantes*/
+
+section#integrantes h3 {
+    font-family:'Permanent Marker' ;
+    height: 51px;
+    width: 1220px;
+    font-size:50px;
+}
+
+section#integrantes div.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+section#integrantes  div.row ul {
+    padding-left: 20px;
+}
+
+section#integrantes div.row img {
+    padding-right: 20px;
+}
+ section#integrantes ul li {
+     font-family: 'Homenaje';
+     font-weight: 400;
+     font-size: 20px;
+ }
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style:none;
+    margin: 0%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Alfa Slab One';
+    font-weight: 500;
+    color: #fff;
+} 
+
+nav ul li {
+    padding: 17px 10px;
+    transition: all 1s;
+}
+
+nav ul li:hover {
+    background-color: #482626;
+}
+
+section#integrantes div.row{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+ section#integrantes div.row ul {
+    text-align: justify;
+    padding-left: 10px;
+    width: 338px;
+    padding-top: 102px;
+ }
+
+ section#integrantes div.row {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+ }
+
+
+ /*Premios*/
+
+ section#premios ol {
+    font-family: 'Homenaje';
+    font-size: 24px;
+    color: #fff;
+ }
+ section#premios p {
+    font-size: 24px;
+    color: #fff;
+ }
+ section#premios h2 {
+    color: #fff;
+ }
+ section#premios {
+     background: url(https://media.istockphoto.com/photos/red-glitter-background-picture-id865515496?k=20&m=865515496&s=170667a&w=0&h=V4ing5HB0iiUL6LhvJqj-eP2PhvjWwMR-kkYWiXkBi0=);
+ }
+
+
+
+
+/*Encuesta*/
+
+section#encuesta input {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+section#encuesta input,
+section#encuesta p,
+section#encuesta input,
+label,
+legend {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+section#encuesta fieldset {
+    border: none;
+}
+
+section#encuenta legend {
+    font-family: 'Permanet Maker';
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background: #482626;
+    padding: 8px 0;
+}
+
+footer div.row {
+    padding: 12px 0px;
+}
+
+footer div.row a,
+footer div.row p {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer div.row a {
+    transition: all 300ms;
+}
+
+footer div.row a:hover {
+    font-size: 120%;
+}
+
+a#btn-floating {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #8d0100;
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
